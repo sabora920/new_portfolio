@@ -22,6 +22,10 @@ nav, footer {
     color: white;
 }
 
+.uppercase:hover {
+    color: #2e7bb0
+}
+
 header {
     padding: 1px;
     margin: 0;
@@ -54,10 +58,11 @@ footer {
     box-shadow: 10px 10px 5px #aaaaaa;
     margin: auto;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 
 .project-item:hover {
-    background-color: #2e7bb0;
+    box-shadow: 10px 10px 5px #2e7bb0;
 }
 
 #logo {
@@ -100,3 +105,4 @@ a {
 #email {
     color: #2e7bb0;
 }
+

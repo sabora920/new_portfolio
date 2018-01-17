@@ -46,6 +46,17 @@
         padding:0;
         width: 100%;        
     }
+    .svg-image {
+        height: 15px;
+        width: auto;
+    }
+    #devicons {
+        display: flex;
+        justify-content: center;
+    }
+    .devicon-icon {
+        margin-right: 0;
+    }
 }
 
 /* non-mobile */
@@ -78,5 +89,30 @@
     }
     #about {
         padding: 15px;
+    }
+    .svg-image {
+        height: 25px;
+        width: auto;
+    }
+    #devicons {
+        display: flex;
+        justify-content: center;
+    }
+    .devicon-icon {
+        margin-right: 3px;
+    }
+}
+
+@media only screen and (min-width: 575px) and (max-width: 1000px) {
+    .svg-image {
+        height: 15px;
+        width: auto;
+    }
+    #devicons {
+        display: flex;
+        justify-content: center;
+    }
+    .devicon-icon {
+        margin-right: 3px;
     }
 }
