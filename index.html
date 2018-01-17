@@ -1,66 +1,100 @@
 <! DOCTYPE html>
 <html lang="en">
     <head>
-        <title>WIREFRAME</title>
+        <meta charset="itf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="index.css">
+        <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/media.css">
     </head>
     <body>
-        <nav role="main">Navigation Bar</nav>
+        <header class="header">
+            <img src="img/logo.png" alt="portfolio logo image" id="logo">
+            <div class="hamburger">
+                <div class="hamburger-stripe"></div>
+                <div class="hamburger-stripe"></div>
+                <div class="hamburger-stripe"></div>
+            </div>
+        </header>
+        <nav class="nav-1 dropdown-content nav-desktop-grid nav-desktop-grid-closed">
+                <ul class="nav-primary">
+                  <li class="nav-item">
+                    <a class="uppercase" href="#about">
+                      About
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="uppercase" href="#projects">
+                      Projects
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="uppercase" href="#contact-info">
+                      Contact Information
+                    </a>
+                  </li>
+                </ul>
+              </nav>
 
         <main role="main">
-            <header role="banner">
+            <div id="about" role="banner">
                 <h1>Ryan Sabo </h1><span>- Hi, my name is Ryan. I am a Fullstack developer based out of Washington D.C.</span>
                 <h2>About</h2>
                 <p>
                     My education and professional experiences have led me to a profound interest in web development. 
                     I relate coding to playing with legos when I was a little kid, I can build anything I want from scratch with the right pieces. 
                     Now, as a Fullstack developer, I can build websites and apps starting from a blank text editor.
-                    When I’m not coding I love spending my time outdoors diving, fishing, hiking or just reading some random article I found online.
+                    When I’m not coding I love spending my time outdoors diving, fishing, hiking or just reading a random article I found online.
                 </p>
-            </header>
-            <section>
-                Quiz App - 
-                <p>
-                    Take a short quiz on knowledge of food! 
-                    This app was built using Javascript, jQuery, html and css.
-                </p>
-            </section>
-            <section>
-                Spotify App - 
-                <p>
-                    Look up your favorite artist's top songs with this Spotify API hack. 
-                    This app was built Javascript, jQuery, AJAX, html and css.
-                </p>
-            </section>
-            <section>
-                Budget App -
-                <p>
-                    Create a personal expense sheet given your income and expenses with this personal budget calculator.
-                    This app was built Javascript, jQuery, AJAX, html and css.
-                </p>
-            </section>
-            <section>
-                GoT Forum -
-                <p>
-                    Post all of your thoughts and opinions on the latest Game of Thrones episodes and news with this social forum app.
-                    This app was built with Node.js, express, mongoDB, mongoose, Javascript, jquery, AJAX, html and css.
-                </p>
-            </section>
-            <section>
-                quick concert - 
-                <p>
-                    Easily organize concerts with your friends by creating events and sending invites to everyone, no more headache of indivually 
-                    contacting everyone. This app was built with Node.js, express, mongoDB, mongoose, Javascript, html and css. 
-                </p>
-            </section>
+            </div>
+            <div id="projects" alt="projects-section">
+                <h2>Projects</h2>
+                <section>
+                    Quiz App - 
+                    <p>
+                        Take a short quiz on knowledge of food! 
+                        This app was built using Javascript, jQuery, html and css.
+                    </p>
+                </section>
+                <section>
+                    Spotify App - 
+                    <p>
+                        Look up your favorite artist's top songs with this Spotify API hack. 
+                        This app was built Javascript, jQuery, AJAX, html and css.
+                    </p>
+                </section>
+                <section>
+                    Budget App -
+                    <p>
+                        Create a personal expense sheet given your income and expenses with this personal budget calculator.
+                        This app was built Javascript, jQuery, AJAX, html and css.
+                    </p>
+                </section>
+                <section>
+                    GoT Forum -
+                    <p>
+                        Post all of your thoughts and opinions on the latest Game of Thrones episodes and news with this social forum app.
+                        This app was built with Node.js, express, mongoDB, mongoose, Javascript, jquery, AJAX, html and css.
+                    </p>
+                </section>
+                <section>
+                    quick concert - 
+                    <p>
+                        Easily organize concerts with your friends by creating events and sending invites to everyone, no more headache of indivually 
+                        contacting everyone. This app was built with Node.js, express, mongoDB, mongoose, Javascript, html and css. 
+                    </p>
+                </section>
+            </div>
         </main>
-        <footer role="content-info">
+        <footer id="contact-info" role="content-info" alt="contact-info">
             Check me out on {social media tabs here} <br />
             or I'd love to hear from you via email <br />
             <span>
                 sabora920@gmail.com
             </span>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="index.js" type="text/javascript"></script>       
     </body>
 </html>
