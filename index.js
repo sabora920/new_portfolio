@@ -1,3 +1,6 @@
+
+// handles the dropdown in the mobile device view
+
 $('.splash-nav-toggle').click(e => {
     const sibling = $(e.target).siblings('.nav-dropdown');
     const isHidden = sibling.hasClass('nav-dropdown-hidden');
@@ -12,3 +15,4 @@ $('.splash-nav-toggle').click(e => {
 $('.hamburger').click(e => {
     $('.nav-desktop-grid').toggleClass('nav-desktop-grid-closed');
 });
+
