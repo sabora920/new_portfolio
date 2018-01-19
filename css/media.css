@@ -15,6 +15,11 @@
         padding: 10px;
         border-bottom: 1px solid lightgrey;
     }
+    #logo {
+        width: 75px;
+        height: 30px;
+        margin: 1%;
+    }
     .uppercase {
         text-transform: uppercase;
         font-weight: bold;
@@ -33,13 +38,13 @@
         border-bottom: 1px solid lightgrey;
         padding-bottom: 10px;    
         padding-left: 10px; 
-        padding-top: 10px
+        padding-top: 10px;
     }
     .nav-item:not(:first-of-type) {
         padding-top: -10px;
     }
     .nav-dropdown-item {
-        background-color: #f9fbff;                
+        background-color: #f9fbff;         
     }
     ul {
         margin:0;
@@ -56,6 +61,22 @@
     }
     .devicon-icon {
         margin-right: 0;
+    }
+    .description{
+        padding-bottom: 20px;
+        margin: 0 30px 10px 30px
+    }
+    nav {
+        background-color: white;
+        color: black;
+    }
+    .name {
+        margin-top: 0;
+    }
+    .demo-vid {
+        width: 75%;
+        height: auto;
+        padding: 10px
     }
 }
 
@@ -74,21 +95,27 @@
         display: flex;
         z-index: 1;
         position: fixed;
-        top: 4;
+        /* top: 4;
         left: 10;
-        right: 0;
+        right: 0; */
+        width: 10%;
+        height: auto;
+        margin: .1%;
+        padding: 5px;       
     }
     nav {
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
+        background-color: black;
+        color: white;
     }
     .nav-item {
-        padding-left: 80px;
+        padding-left: 90px;
     }
     #about {
-        padding: 15px;
+        padding: 25px;
     }
     .svg-image {
         height: 25px;
@@ -101,7 +128,17 @@
     .devicon-icon {
         margin-right: 3px;
     }
+    .description {
+        margin: 0 200px 100px 200px;
+    }
+    .demo-vid {
+        width: 70%;
+        height: auto;
+        padding: 20px;
+    }
 }
+
+/* in between a full screen and mobile screen */
 
 @media only screen and (min-width: 575px) and (max-width: 1000px) {
     .svg-image {
@@ -114,5 +151,17 @@
     }
     .devicon-icon {
         margin-right: 3px;
+    }
+    .description {
+        margin: 0 75px 25px 75px
+    }
+    nav {
+        background-color: black;
+        color: white;
+    }
+    #logo {
+        width: 10%;
+        height: auto;
+        margin: 1%
     }
 }

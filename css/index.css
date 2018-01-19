@@ -14,8 +14,6 @@ body {
 
 nav, footer {
     padding: 1% 0;
-    background-color: black;
-    color: white;
 }
 
 .uppercase {
@@ -33,6 +31,8 @@ header {
 
 footer {
     font-size: .5em;
+    background-color: black;
+    color: white;
 }
 
 .hamburger {
@@ -51,7 +51,7 @@ footer {
 }
 
 .project-item {
-    width: 50%;
+    width: 70%;
     padding: 10px 10px 20px 10px;
     border: 1px solid #BFBFBF;
     background-color: white;
@@ -66,9 +66,7 @@ footer {
 }
 
 #logo {
-    width: 70px;
-    height: 35px;
-    border-radius: 25px;
+    border-radius: 25px; 
 }
 
 ul {
@@ -92,6 +90,10 @@ a {
     color: white;
 }
 
+#contact-info {
+    font-size: .7em;
+}
+
 #socialmedia-badges {
     margin-right: 35px;
     display: flex;
@@ -107,4 +109,9 @@ a {
 }
  .badge {
      fill: #2e7bb0;
+     margin-right: 3px;
+ }
+ .hello {
+     padding-right: 20px;
+     padding-left: 20px;
  }
