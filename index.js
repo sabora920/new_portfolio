@@ -1,18 +1,16 @@
 
-// handles the dropdown in the mobile device view
-
-$('.splash-nav-toggle').click(e => {
-    const sibling = $(e.target).siblings('.nav-dropdown');
-    const isHidden = sibling.hasClass('nav-dropdown-hidden');
-    // Hide all dropdowns
-    $('.nav-dropdown').addClass('nav-dropdown-hidden');
-
-    if (isHidden) {
-        // Show the one we selected if it was hidden before
-        sibling.removeClass('nav-dropdown-hidden');
-    }
-});
 $('.hamburger').click(e => {
     $('.nav-desktop-grid').toggleClass('nav-desktop-grid-closed');
 });
 
+$('.core-stack').click(e => {
+    $('.core-stack-show').toggleClass('core-stack-hidden');    
+})
+
+$('.about-me').click(e => {
+    $('.description-show').toggleClass('description-hidden')
+})
+
+$('.got-started').click(e => {
+    $('.got-started-show').toggleClass('got-started-hidden')
+})

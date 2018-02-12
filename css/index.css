@@ -1,15 +1,20 @@
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
   }
 
+p {
+    font-family: 'Nanum Myeongjo', serif;    
+}
+
 body {
-    font-family: "Open Sans", sans-serif; 
     font-size: 20px;
     color: #444;
     text-align: center;
     line-height: 1.5;
     margin: 0;
     padding: 0;
+    background-color: #E0FFFF;
 }
 
 nav, footer {
@@ -107,11 +112,29 @@ a {
 #email {
     color: #2e7bb0;
 }
- .badge {
+
+.badge {
      fill: #2e7bb0;
      margin-right: 3px;
- }
- .hello {
+}
+
+.hello {
      padding-right: 20px;
      padding-left: 20px;
- }
+}
+
+.name {
+    font-size: 80px;
+}
+
+.core-stack-hidden, .description-hidden, .got-started-hidden {
+    display: none;
+}
+
+.core-stack, .about-me, .got-started {
+    cursor: pointer;    
+}
+
+/* .project-header {
+    margin-left: 15%;     
+} */
